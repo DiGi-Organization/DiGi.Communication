@@ -53,7 +53,7 @@ namespace DiGi.Communication.ComputeSharp.Classes
         /// <summary>
         /// Executes the solving operation.
         /// <para>When the scattering objects provide at least one triangle, the operation requires a hardware-accelerated, double-precision graphics device and
-        /// returns <c>false</c> when none is available (the WARP software renderer is never used) (ZiolkowskiJakub/DiGi.Communication#2).</para>
+        /// returns <c>false</c> when none is available (the WARP software renderer is never used) (DiGi-Organization/DiGi.Communication#2).</para>
         /// </summary>
         /// <returns><c>true</c> if the solver successfully executed; otherwise, <c>false</c>.</returns>
         public bool Solve()
