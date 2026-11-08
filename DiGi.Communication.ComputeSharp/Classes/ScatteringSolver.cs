@@ -19,7 +19,7 @@ namespace DiGi.Communication.ComputeSharp.Classes
     {
         private List<IScatteringProfile>? scatteringProfiles;
 
-        private class CandidatePoint
+        private sealed class CandidatePoint
         {
             public Line3 LineToLoc { get; set; }
             public Coordinate3 Point { get; set; }

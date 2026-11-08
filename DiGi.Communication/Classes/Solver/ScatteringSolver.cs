@@ -25,7 +25,7 @@ namespace DiGi.Communication.Classes
             public Triangle3D Triangle;
         }
 
-        private class CachedScatteringGroup
+        private sealed class CachedScatteringGroup
         {
             public BoundingBox3D BoundingBox3D { get; }
             public List<BoundingBox3D> BoundingBox3Ds { get; }
@@ -69,7 +69,7 @@ namespace DiGi.Communication.Classes
             }
         }
 
-        private class SegmentComponent
+        private sealed class SegmentComponent
         {
             public string Reference { get; }
             public List<Segment3D> Segments { get; }
